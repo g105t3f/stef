@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Negro */
+    color: #fff; /* Texto blanco para contraste */
+    text-align: center;
+}
+
+header {
+    background-color: #9b1b30; /* Rojo vino */
+    padding: 20px;
+    border-bottom: 5px solid #d4af37; /* Dorado */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #d4af37; /* Dorado */
+}
+
+.romantico {
+    padding: 40px;
+    background: linear-gradient(135deg, #ff66a3, #ffcccb); /* Rosado a rojo */
+    border: 2px solid #d4af37; /* Dorado */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.carta {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #1a1a1a; /* Negro para el fondo de la carta */
+    background-color: #ffebcd; /* Color de fondo claro para la carta */
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Oculta inicialmente */
+}
+
+.corazones {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #9b1b30; /* Rojo vino */
+    padding: 10px;
+    border-top: 5px solid #d4af37; /* Dorado */
+}
+
+button {
+    background-color: #d4af37; /* Dorado */
+    color: #1a1a1a; /* Negro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #b58b27; /* Dorado más oscuro */
+}
